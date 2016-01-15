@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+from __future__ import division
+
+a = raw_input()
+b = raw_input()
+
+print(int(a)//int(b))
+print(int(a)/int(b))

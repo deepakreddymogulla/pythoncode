@@ -1,0 +1,18 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+from __future__ import division
+import re, sys
+
+a = int(raw_input())
+d = {}
+
+for i in range(a):
+    b = raw_input()
+    listb = b.split(" ")
+    d[listb[0]] = listb[1:]
+
+e = raw_input()
+if (e in d):
+    av = d[e]
+    av1 = (float(av[0]) + float(av[1]) + float(av[2]))/3
+    print('%.2f' %av1)

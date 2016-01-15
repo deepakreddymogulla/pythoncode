@@ -1,0 +1,8 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+import re, sys
+
+fn = raw_input()
+ln = raw_input()
+
+print("Hello " + fn + " " + ln + "! You just delved into python.")

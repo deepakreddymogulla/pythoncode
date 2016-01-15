@@ -1,0 +1,12 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+from __future__ import print_function
+import re, sys
+
+a = int(raw_input())
+
+l = []
+for i in range(1,a+1):
+    l.append(i)
+for i in l:
+    sys.stdout.write(str(i))
